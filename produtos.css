@@ -8,13 +8,18 @@ nav a{
 }
 
 .imagem1 {
-  width: 20%;
-  background-color: #CCCCCC;
-  background-size: auto;
+  width: 40%;
 }
 
 .centralizar {
-  text-align: center
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-color: rgb(4, 89, 185);
+    border-width: 30px;
+    border-style: ridge;
 }
 
 body {
@@ -25,11 +30,6 @@ body {
 .lista li{
   display: inline-block;
   vertical-align: top;
-  background-color: #3d3d3d;
-  margin: o 1.5%;
+  margin: 1.5%;
   padding: 30px 20px;
-  box-sizing: border-box;
-  border-color: rgb(49, 49, 49);
-  border-width: 2px;
-  border-style: solid;
 }
